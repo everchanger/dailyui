@@ -1,22 +1,53 @@
 <html>
 	<head>
-		<title></title>
+		<title>NetChills - Sign Me Up!</title>
 		<!-- CSS -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="mystyle.css">
 	</head>
 	<body>
 		<div class="container">
 			<div class="main-content">
-					<form class="form-horizontal" role="form">
-						<div class="row">
-							<div class="col-md-3"></div> 
-							<div class="col-md-6">
-								<h2 class="sign-up-text">Sign Up!</h2>
-								<p>test test</p>
+				<div class="row justify-content-center">
+						<div class="col-12 col-sm-8 sign-up-container">
+							<div class="row">
+								<div class="col-12">
+									<h4>Sign up for Net<span class="logo">Chillis <i class="fas fa-fire"></i></span></h4>
+									<p class="text-muted">Join our online community to talk about the spicy treat we all enjoy!</p>
+								</div>
 							</div>
+							<form class="sign-up-form">
+								<div class="form-group">
+									<label for="name">Username</label>
+									<div class="col-12 col-sm-10 col-md-8 col-lg-6">
+										<input class="form-control" type="text" id="name" placeholder="Trixter2k5" required />
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<div class="col-12 col-sm-10 col-md-8 col-lg-6">
+										<input class="form-control" type="text" id="email" placeholder="mike.swanson@google.com" required />
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="password1">Password</label>
+									<div class="col-12 col-sm-10 col-md-8 col-lg-6">
+										<input class="form-control" type="password" id="password1" placeholder="Password" required />
+									</div>
+									<div class="col-12 col-sm-10 col-md-8 col-lg-6 mt-2">
+										<input class="form-control" type="password" id="password2" placeholder="Confirm password" required />
+									</div>
+									<small class="form-text text-muted">Enter a really hard password.. No not that one, you used that at that other site, remember?</small>
+									
+								</div>
+								<div class="form-group">
+										<input type="submit" class="btn btn-chili" value="Join now!">
+									</div>
+							</form>
 						</div>
-					</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
