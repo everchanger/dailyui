@@ -1,0 +1,103 @@
+body {
+	background-color: #c6ddff;
+}
+
+h2 {
+	color: #3e8dff;
+}
+
+input {
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+	width: 100%;
+}
+
+.checkout-container {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(to bottom right, #aacaf8, #9ac0f8);
+	padding: 25px;
+	border: 3px solid #9ac0f8;
+}
+
+.credit-card-number-wrapper {
+	width: 100%;
+	white-space:nowrap
+}
+
+.credit-card-number-wrapper input {
+	width: 20%;
+	max-width: 80px;
+}
+
+.checkout-group input:first-child {
+	margin-left: 15px;
+}
+
+.credit-card-cvc-wrapper input {
+	max-width: 60px;
+}
+
+.checkout-group {
+	display: flex;
+}
+
+.checkout-group > label {
+	margin-right: 15px;
+	color: #3e8dff;
+	background-color: #00000008;
+	padding: 15px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.wrapper {
+	display: inline;
+}
+
+.btn-checkout {
+	color: #3e8dff;
+	background-color: #b8d5ff;
+	border-color: #b8d5ff;
+	font-weight: bold;
+}
+
+.btn-checkout:hover {
+	background-color: #8bbbff;
+	border-color: #8bbbff;
+}
+
+@media (max-width: 576px) {
+	.checkout-container {
+		width: 100%;
+		border-radius: 0;
+		border: 0px solid #9ac0f8;
+	}
+
+	.checkout-group label {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.credit-card-number-wrapper input {
+		width: 23%;
+		max-width: 23%;
+	}
+
+	.credit-card-cvc-wrapper input {
+		margin-left: 15px;
+		max-width: 60px;
+	}
+}
